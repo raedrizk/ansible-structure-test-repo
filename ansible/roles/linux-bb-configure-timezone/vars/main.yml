@@ -1,0 +1,3 @@
+---
+# vars file for linux-bb-configure-timezone
+time_zone: "{{ tower_input_time_zone | default('UTC') }}"

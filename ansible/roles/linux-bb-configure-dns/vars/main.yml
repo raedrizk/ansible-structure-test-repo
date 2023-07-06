@@ -1,0 +1,4 @@
+---
+# vars file for linux-bb-configure-dns
+dns_domain: "{{ tower_input_dns_domain | default('google.com') }}" 
+dns_ip: "{{ tower_input_dns_ip | default('8.8.8.8') }}"

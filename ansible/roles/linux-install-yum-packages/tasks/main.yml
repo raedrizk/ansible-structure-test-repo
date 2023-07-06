@@ -1,0 +1,5 @@
+---
+# tasks file for linux-install-yum-packages
+- name: Install Linux packages using Yum
+  include_tasks: linux_install_yum_packages.yml
+

@@ -1,0 +1,4 @@
+---
+# tasks file for linux-bb-configure-dns
+- name: configue the {{ dns_domain }} DNS domain
+  raw: setup-dns -d {{ dns_domain }} -n {{ dns_ip }}

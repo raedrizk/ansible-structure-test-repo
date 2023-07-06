@@ -1,0 +1,4 @@
+---
+# tasks file for linux-bb-configure-timezone
+- name: Configure timezone to {{ time_zone }}
+  raw: setup-timezone -z {{ time_zone }}

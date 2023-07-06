@@ -1,0 +1,7 @@
+---
+- name: Install packages on Linux hosts
+  hosts: all
+  become: true
+  roles:
+    - linux-install-yum-packages
+

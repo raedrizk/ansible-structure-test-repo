@@ -1,0 +1,5 @@
+---
+# defaults file for linux-install-yum-packages
+yum_packages:
+  - git
+  - gcc

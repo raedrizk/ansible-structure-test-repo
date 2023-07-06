@@ -1,0 +1,7 @@
+---
+- name: Configure DNS
+  hosts: all
+  gather_facts: false
+  roles:
+  - linux-bb-configure-dns
+
